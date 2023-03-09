@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+    <title>Lomake-esimerkki</title>
+</head>
+
+<body>
+
+    <form>
+        <fieldset>
+            <legend>Contact information:</legend>
+            <table>
+
+
+                <tr>
+                    <td><label>First name:</label></td>
+                    <td><input type="text" id="fname" name="fname"></td>
+                    <td colspan="2">Preferred contact method:</td>
+                </tr>
+                <tr>
+                    <td><label>Last name:</label></td>
+                    <td><input type="text" id="lname" name="lname"></td>
+                    <td><input type="checkbox" id="contact1" name="contact1" value="Email">
+                        <label for="vehicle1"> Email</label><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Email:</label></td>
+                    <td><input type="text" id="email" name="email"></td>
+                    <td><input type="checkbox" id="contact2" name="contact2" value="Telephone">
+                        <label for="vehicle1"> Telephone</label><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Telephone:</label></td>
+                    <td><input type="text" id="phone" name="phone"></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Feedback:</legend>
+            <table>
+
+                <tr>
+                    <td><label>Message subject:</label></td>
+                    <td><input type="text" id="msgSubject" name="msgSubject"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><textarea id="text" name="text" rows="8" cols="50"></textarea></td>
+                </tr>
+
+                <tr>
+                    <td><label>Attach a file:</label></td>
+                    <td> <input type="file"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Send"></td>
+                </tr>
+            </table>
+
+        </fieldset>
+    </form>
+</body>
+
+
+</html>
