@@ -1,0 +1,66 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+body {
+    width: 50%;
+    margin: auto;
+}
+
+fieldset {
+    background-color: rgb(47, 220, 255);
+    border-radius: 10px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 2px;
+}
+
+legend {
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+input {
+    background-color: rgb(44, 195, 225);
+    border-radius: 3px;
+}
+
+input[type="File"] {
+    border-radius: 0px;
+    background-color: inherit;
+}
+
+textarea {
+    background: rgb(44, 195, 225);
+    width: 100%;
+}
+
+select {
+    width: 100%;
+}
+
+input:focus {
+    background-color: rgb(92, 208, 232);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: 3px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+fieldset.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
